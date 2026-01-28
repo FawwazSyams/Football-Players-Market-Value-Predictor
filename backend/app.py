@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from flask_cors import CORS  # Penting untuk React
+from flask_cors import CORS 
 import pickle
 import os
 
