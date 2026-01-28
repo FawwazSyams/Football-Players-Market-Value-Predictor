@@ -4,7 +4,7 @@ import pickle
 import os
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Load model
 with open('model_bola.pkl', 'rb') as f:
