@@ -13,7 +13,7 @@ function App() {
   const handlePredict = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/predict", {
+      const response = await fetch("fawdaw-production-market-value-predictor.up.railway.app", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(inputs),
