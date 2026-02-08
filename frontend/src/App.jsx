@@ -106,7 +106,7 @@ function App() {
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
                   </span>
-                  Accuracy: 16.9%
+                  Prediksi berdasarkan data yang dimasukkan
                 </div>
               </div>
             ) : (
